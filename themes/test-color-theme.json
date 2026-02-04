@@ -1,0 +1,91 @@
+{
+	"name": "test",
+	"colors": {
+		"editor.background": "#1E1E1E",
+		"editor.foreground": "#eeffff",
+		"activityBarBadge.background": "#007acc",
+		"sideBarTitle.foreground": "#bbbbbb"
+	},
+	"tokenColors": [
+		{
+			"name": "Comments",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "#525252"
+			}	
+		},
+		// const
+		{
+			"scope": ["variable.other.constant"],
+			"settings": {
+				"foreground": "#3b8cb8"
+			}
+		},
+		// keywords
+		{
+			"scope": ["keyword", "storage.type", "storage.modifier"],
+			"settings": {
+				"foreground": "#9872A2"
+			}
+		},
+		// function arguments/parameters
+		{
+			"scope": ["variable.parameter"],
+			"settings": {
+				"foreground": "#078448be",
+				"fontStyle": "italic"
+			}
+		},
+		// function arguments/parameters
+		{
+			"scope": ["variable.parameter"],
+			"settings": {
+				"foreground": "#078448be",
+				"fontStyle": "italic"
+			}
+		},
+		// numbers
+		{
+			"scope": [
+				"constant.numeric",
+			],
+			"settings": {
+				"foreground": "#408080"
+			}
+		},
+		// something
+		{
+			"scope": [
+				"keyword.operator.arithmetic",
+			],
+			"settings": {
+				"foreground": "#F92672"
+			}
+		},
+		// let variables, imports
+		{
+			"scope": [
+				"variable",
+			],
+			"settings": {
+				"foreground": "#9CDCFE"
+			}
+		},
+		// function
+		{
+			"scope": [
+				"meta.function",
+			],
+			"settings": {
+				"foreground": "#d97706"
+			}
+		}
+	],
+	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		
+	}
+}
